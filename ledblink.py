@@ -7,8 +7,8 @@ GPIO.setup(14, GPIO.OUT)
 
 for count in range(10):
 	GPIO.output(14, GPIO.HIGH)
-	time.sleep(1)
+	time.sleep(0.5)
 	GPIO.output(14, GPIO.LOW)
-	time.sleep(1)
+	time.sleep(0.5)
 
 GPIO.cleanup()
